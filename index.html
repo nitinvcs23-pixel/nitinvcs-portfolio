@@ -1,949 +1,654 @@
 <!DOCTYPE html>
 
-<!--
-====================================================
-        STUDENT PERSONAL PORTFOLIO WEBSITE
-====================================================
-
-Author : Your Name
-
-This project is created for learning HTML & CSS.
-
-====================================================
--->
-
 <html lang="en">
 
 <head>
 
-    <!-- Character Encoding -->
     <meta charset="UTF-8">
 
-    <!-- Responsive Website -->
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO Description -->
-    <meta name="description"
-          content="Personal Portfolio Website">
+    <meta name="description" content="Personal Portfolio Website for Nitin Varchasvee C S - Aspiring Penetration Tester">
 
-    <!-- Keywords -->
-    <meta name="keywords"
-          content="HTML,CSS,Portfolio">
+    <meta name="keywords" content="HTML,CSS,Portfolio,Cybersecurity,Penetration Testing,Ethical Hacking">
 
-    <!-- Author -->
-    <meta name="author"
-          content="Vishal S Gowda">
+    <meta name="author" content="Nitin Varchasvee C S">
 
-    <!-- Browser Title -->
-    <title>Vishal S Gowda - Portfolio</title>
+    <title>Nitin Varchasvee C S - Portfolio</title>
 
-    <!-- Website Logo -->
-    <link rel="icon"
-          href="images/logo.png">
+    <link rel="icon" href="images/logo.png">
 
-    <!-- External CSS -->
-    <link rel="stylesheet"
-          href="style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<!-- ===========================================
-                HEADER START
-=========================================== -->
+    <header>
 
-<header>
+        <div class="logo">
 
-    <!-- Website Logo -->
+            <img src="images/logo.png" alt="Logo">
 
-    <div class="logo">
+            <h2>My Portfolio</h2>
 
-        <img src="images/logo.png"
-             alt="Logo">
+        </div>
 
-        <h2>My Portfolio</h2>
+        <nav>
 
-    </div>
+            <ul>
 
-    <!-- Navigation -->
+                <li><a href="#home">Home</a></li>
 
-    <nav>
+                <li><a href="#about">About</a></li>
 
-        <ul>
+                <li><a href="#skills">Skills</a></li>
 
-            <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
 
-            <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
 
-            <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
 
-            <li><a href="#projects">Projects</a></li>
+            </ul>
 
-            <li><a href="#education">Education</a></li>
+        </nav>
 
-            <li><a href="#contact">Contact</a></li>
+    </header>
 
-        </ul>
+    <section class="hero" id="home">
 
-    </nav>
+        <div class="hero-content">
 
-</header>
+            <p class="welcome">
 
-<!-- ===========================================
-                HEADER END
-=========================================== -->
+                👋 Hello Everyone
 
+            </p>
 
+            <h1>
 
+                I'm
 
+                <span>
 
-<!-- ===========================================
-                HERO SECTION
-=========================================== -->
-
-<section class="hero">
-
-    <!-- Left Side -->
-
-    <div class="hero-content">
-
-        <p class="welcome">
-
-            👋 Hello Everyone
-
-        </p>
-
-        <h1>
-
-            I'm
-
-            <span>
-
-                Vishal S Gowda
+                Nitin Varchasvee C S
 
             </span>
 
-        </h1>
+            </h1>
 
-        <h3>
+            <h3>
 
-            Full Stack Developer & Technical Trainer
+                Aspiring Penetration Tester & Cybersecurity Enthusiast
 
-        </h3>
+            </h3>
 
-        <p class="description">
+            <p class="description">
 
-            Passionate about Web Development,
+                Expertise in vulnerability assessment and network security. Proficient in identifying system weaknesses using tools such as Nmap, Metasploit, and Burp Suite. Committed to enhancing security for decentralized systems and IoT environments.
 
-            Artificial Intelligence,
+            </p>
 
-            AWS Cloud,
+            <div class="buttons">
 
-            and Software Development.
+                <a href="nitinvcs_resume.pdf" download>
 
-        </p>
-
-        <div class="buttons">
-
-            <a href="resume.pdf"
-               download>
-
-                <button class="resume">
+                    <button class="resume">
 
                     Download Resume
 
                 </button>
 
-            </a>
+                </a>
 
-            <a href="#contact">
+                <a href="#contact">
 
-                <button class="contact">
+                    <button class="contact">
 
                     Contact Me
 
                 </button>
 
-            </a>
+                </a>
+
+            </div>
 
         </div>
 
-    </div>
 
 
+        <div class="hero-image">
 
-    <!-- Right Side -->
-
-    <div class="hero-image">
-
-        <img src="images/myphoto.jpg"
-             alt="Profile">
-
-    </div>
-
-</section>
-
-<!-- ===========================================
-                ABOUT SECTION START
-=========================================== -->
-
-<section class="about" id="about">
-
-    <h2 class="section-title">
-
-        About Me
-
-    </h2>
-
-    <div class="about-container">
-
-        <div class="about-image">
-
-            <img src="images/profile.png"
-                 alt="Profile Image">
+            <img src="images/myphoto.jpg" alt="Profile">
 
         </div>
 
-        <div class="about-content">
+    </section>
 
-            <h3>Hello! I'm Vishal S Gowda</h3>
+    <section class="about" id="about">
 
-            <p>
+        <h2 class="section-title">
 
-                I am a passionate Full Stack Developer with
-                strong knowledge in HTML, CSS, JavaScript,
-                Python, SQL, AWS and Artificial Intelligence.
+            About Me
 
-            </p>
+        </h2>
 
-            <p>
+        <div class="about-container">
 
-                I enjoy creating responsive websites and
-                solving real-world problems using technology.
+            <div class="about-image">
 
-            </p>
+                <img src="images/profile.png" alt="Profile Image">
 
-        </div>
+            </div>
 
-    </div>
+            <div class="about-content">
 
-</section>
+                <h3>Hello! I'm Nitin Varchasvee C S</h3>
 
-<!-- ===========================================
-                ABOUT SECTION END
-=========================================== -->
+                <p>
 
+                    I am an aspiring penetration tester with a strong foundation in computer science, specifically focusing on IoT, cybersecurity, and blockchain tech. I am highly motivated to contribute analytical skills to a dynamic red team to strengthen organizational
+                    defenses against evolving cyber threats.
 
+                </p>
 
-<!-- ===========================================
-          PERSONAL INFORMATION START
-=========================================== -->
+                <p>
 
-<section class="personal-info">
+                    I enjoy exploring deep security vulnerabilities, working with connected technologies, and publishing research to add value back into the engineering community.
 
-    <h2 class="section-title">
+                </p>
 
-        Personal Information
-
-    </h2>
-
-    <div class="info-container">
-
-        <div class="info-card">
-
-            <h3>Name</h3>
-
-            <p>Vishal S Gowda</p>
+            </div>
 
         </div>
 
-        <div class="info-card">
+    </section>
 
-            <h3>Email</h3>
+    <section class="personal-info">
 
-            <p>vishalgwda@gmail.com</p>
+        <h2 class="section-title">
 
-        </div>
+            Personal Information
 
-        <div class="info-card">
+        </h2>
 
-            <h3>Phone</h3>
+        <div class="info-container">
 
-            <p>+91 9876543210</p>
+            <div class="info-card">
 
-        </div>
+                <h3>Name</h3>
 
-        <div class="info-card">
+                <p>Nitin Varchasvee C S</p>
 
-            <h3>Location</h3>
+            </div>
 
-            <p>Bangalore</p>
+            <div class="info-card">
 
-        </div>
+                <h3>Email</h3>
 
-    </div>
+                <p>nitinvcs23@gmail.com</p>
 
-</section>
+            </div>
 
-<!-- ===========================================
-          PERSONAL INFORMATION END
-=========================================== -->
+            <div class="info-card">
 
+                <h3>Phone</h3>
 
+                <p>+91 9380681910</p>
 
-<!-- ===========================================
-                SKILLS SECTION
-=========================================== -->
+            </div>
 
-<section class="skills" id="skills">
+            <div class="info-card">
 
-    <h2 class="section-title">
+                <h3>Location</h3>
 
-        Technical Skills
+                <p>BTM Layout, Bengaluru, Karnataka</p>
 
-    </h2>
-
-    <div class="skills-container">
-
-        <div class="skill-card">
-
-            <h3>HTML</h3>
-
-            <p>Web Page Structure</p>
+            </div>
 
         </div>
 
-        <div class="skill-card">
+    </section>
 
-            <h3>CSS</h3>
+    <section class="skills" id="skills">
 
-            <p>Website Styling</p>
+        <h2 class="section-title">
+
+            Technical Skills
+
+        </h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+
+                <h3>Cybersecurity Fundamentals</h3>
+
+                <p>Core Threat Modeling & Defense</p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <h3>Pentesting & Ethical Hacking</h3>
+
+                <p>Nmap, Metasploit, Burp Suite</p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <h3>Python Programming</h3>
+
+                <p>Automation & Security Scripting</p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <h3>C++ Development</h3>
+
+                <p>System-Level Implementations</p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <h3>Internet of Things (IoT)</h3>
+
+                <p>Smart & Connected Architecture</p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <h3>Data Analysis</h3>
+
+                <p>Analyzing Security Logs & Metrics</p>
+
+            </div>
 
         </div>
 
-        <div class="skill-card">
+    </section>
 
-            <h3>JavaScript</h3>
+    <section class="education" id="education">
 
-            <p>Interactive Websites</p>
+        <h2 class="section-title">
+
+            Education
+
+        </h2>
+
+        <table>
+
+            <tr>
+
+                <th>Qualification</th>
+
+                <th>College / School</th>
+
+                <th>Year</th>
+
+                <th>Percentage / CGPA</th>
+
+            </tr>
+
+            <tr>
+
+                <td>B.E - Computer Science (IoT, Cyber Security, & Blockchain)</td>
+
+                <td>S.E.A College Of Engineering & Technology, VTU</td>
+
+                <td>2026</td>
+
+                <td>8.2 CGPA</td>
+
+            </tr>
+
+            <tr>
+
+                <td>12th (PCMB)</td>
+
+                <td>Anand Shiksha Kendra, CBSE</td>
+
+                <td>2023</td>
+
+                <td>81%</td>
+
+            </tr>
+
+            <tr>
+
+                <td>SSLC</td>
+
+                <td>DBM & RJS High School</td>
+
+                <td>2020</td>
+
+                <td>67%</td>
+
+            </tr>
+
+        </table>
+
+    </section>
+
+    <section class="achievements">
+
+        <h2 class="section-title">
+
+            Research Publications
+
+        </h2>
+
+        <div class="achievement-container">
+
+            <div class="achievement-card">
+
+                <h3>📡 Microwave Transmission</h3>
+
+                <p>
+
+                    "Shooting Images of Moving Earth Using High Speed Microwave Transmission" Paper Published at International Conclave and Faculty Awards (Aronax Research Foundation).
+
+                </p>
+
+            </div>
+
+            <div class="achievement-card">
+
+                <h3>🌿 Smart IoT Greenhouse</h3>
+
+                <p>
+
+                    "IoT Enabled Smart Greenhouse Monitoring and Automated Climate Control System" Paper Published at International Conference on Emerging Technologies 2026.
+
+                </p>
+
+            </div>
+
+            <div class="achievement-card">
+
+                <h3>🧠 Dementia Detection AI</h3>
+
+                <p>
+
+                    "Multi-Sensor Fusion For Real-Time Dementia Detection and Safety Monitoring in Elderly Care" Paper Published at International Conference on Emerging Technologies 2026.
+
+                </p>
+
+            </div>
 
         </div>
 
-        <div class="skill-card">
+    </section>
 
-            <h3>Python</h3>
+    <section class="projects" id="projects">
 
-            <p>Programming Language</p>
+        <h2 class="section-title">
 
-        </div>
+            My Projects
 
-        <div class="skill-card">
+        </h2>
 
-            <h3>SQL</h3>
+        <div class="projects-container">
 
-            <p>Database Management</p>
+            <div class="project-card">
 
-        </div>
+                <img src="images/greenhouse.png" alt="Smart Greenhouse Monitoring System">
 
-        <div class="skill-card">
+                <h3>Smart Greenhouse System</h3>
 
-            <h3>AWS</h3>
+                <p>
 
-            <p>Cloud Computing</p>
+                    An IoT Enabled Smart Greenhouse Monitoring System engineered with automated climate control workflows.
 
-        </div>
+                </p>
 
-    </div>
+                <a href="#">
 
-</section>
+                    <button>View Project</button>
 
-<!-- ===========================================
-                SKILLS END
-=========================================== -->
+                </a>
 
+            </div>
 
+            <div class="project-card">
 
-<!-- ===========================================
-            EDUCATION SECTION START
-=========================================== -->
+                <img src="images/blockchain_ai.png" alt="Blockchain AI Security Agent">
 
-<section class="education" id="education">
+                <h3>Blockchain AI Cyber Agent</h3>
 
-    <h2 class="section-title">
+                <p>
 
-        Education
+                    A command-controlled blockchain-based AI Cybersecurity Agent focused on proactive system defense.
 
-    </h2>
+                </p>
 
-    <table>
+                <a href="#">
 
-        <tr>
+                    <button>View Project</button>
 
-            <th>Qualification</th>
+                </a>
 
-            <th>College</th>
-
-            <th>Year</th>
-
-            <th>Percentage</th>
-
-        </tr>
-
-        <tr>
-
-            <td>B.Tech</td>
-
-            <td>SEA Engineering College</td>
-
-            <td>2023</td>
-
-            <td>85%</td>
-
-        </tr>
-
-        <tr>
-
-            <td>Intermediate</td>
-
-            <td>XYZ Junior College</td>
-
-            <td>2019</td>
-
-            <td>95%</td>
-
-        </tr>
-
-        <tr>
-
-            <td>SSC</td>
-
-            <td>ABC High School</td>
-
-            <td>2018</td>
-
-            <td>93%</td>
-
-        </tr>
-
-    </table>
-
-</section>
-
-<!-- ===========================================
-            EDUCATION END
-=========================================== -->
-
-
-
-<!-- ===========================================
-            ACHIEVEMENTS START
-=========================================== -->
-
-<section class="achievements">
-
-    <h2 class="section-title">
-
-        Achievements
-
-    </h2>
-
-    <div class="achievement-container">
-
-        <div class="achievement-card">
-
-            <h3>🏆 Web Development</h3>
-
-            <p>
-
-                Built multiple responsive websites
-                using HTML & CSS.
-
-            </p>
+            </div>
 
         </div>
 
-        <div class="achievement-card">
+    </section>
 
-            <h3>☁ AWS</h3>
+    <section class="certifications">
 
-            <p>
+        <h2 class="section-title">
 
-                Completed AWS Cloud Fundamentals.
+            Certifications
 
-            </p>
+        </h2>
 
-        </div>
+        <div class="certificate-container">
 
-        <div class="achievement-card">
+            <div class="certificate-card">
 
-            <h3>🤖 AI</h3>
+                <h3>
 
-            <p>
+                    Certified Ethical Hacker (CEH)
 
-                Developed beginner AI projects.
+                </h3>
 
-            </p>
+                <p>
 
-        </div>
+                    Core validation of offensive security and pentesting capabilities.
 
-    </div>
+                </p>
 
-</section>
+            </div>
 
-<!-- ===========================================
-            ACHIEVEMENTS END
-=========================================== -->
+            <div class="certificate-card">
 
-<!-- ===========================================
-                PROJECTS SECTION START
-=========================================== -->
+                <h3>
 
-<section class="projects" id="projects">
+                    Python Programming
 
-    <h2 class="section-title">
+                </h3>
 
-        My Projects
+                <p>
 
-    </h2>
+                    Certified proficiency in Python development and software logic.
 
-    <div class="projects-container">
+                </p>
 
-        <!-- Project 1 -->
+            </div>
 
-        <div class="project-card">
+            <div class="certificate-card">
 
-            <img src="images/personalportfolio.png"
-                 alt="Portfolio Project">
+                <h3>
 
-            <h3>Personal Portfolio</h3>
+                    Generative AI Literacy
 
-            <p>
+                </h3>
 
-                A responsive portfolio website developed
-                using HTML and CSS.
+                <p>
 
-            </p>
+                    Knowledge baseline in using and protecting modern foundational models.
 
-            <a href="#">
+                </p>
 
-                <button>View Project</button>
+            </div>
 
-            </a>
+            <div class="certificate-card">
 
-        </div>
+                <h3>
 
-        <!-- Project 2 -->
+                    Cyber Awareness
 
-        <div class="project-card">
+                </h3>
 
-            <img src="images/restaurantwebsite.png"
-                 alt="Restaurant Website">
+                <p>
 
-            <h3>Restaurant Website</h3>
+                    Completed Cyber Awareness Challenge covering broad infrastructure defense.
 
-            <p>
+                </p>
 
-                Premium restaurant website with menu,
-                gallery and contact page.
-
-            </p>
-
-            <a href="#">
-
-                <button>View Project</button>
-
-            </a>
+            </div>
 
         </div>
 
-        <!-- Project 3 -->
+    </section>
 
-        <div class="project-card">
+    <section class="contact" id="contact">
 
-            <img src="images/collegewebsite.png"
-                 alt="College Website">
+        <h2 class="section-title">
 
-            <h3>College Website</h3>
+            Contact Me
 
-            <p>
+        </h2>
 
-                Responsive college website with admission,
-                courses and faculty pages.
+        <div class="contact-container">
 
-            </p>
+            <div class="contact-info">
 
-            <a href="#">
+                <h3>Get In Touch</h3>
 
-                <button>View Project</button>
+                <p>
 
-            </a>
+                    📧 Email : nitinvcs23@gmail.com
 
-        </div>
+                </p>
 
-    </div>
+                <p>
 
-</section>
+                    📱 Phone : +91 9380681910
 
-<!-- ===========================================
-                PROJECTS SECTION END
-=========================================== -->
+                </p>
 
+                <p>
 
+                    📍 Location : 2nd Main, BTM Layout, Bengaluru, Karnataka, 560068
 
+                </p>
 
+                <p>
 
-<!-- ===========================================
-                EXPERIENCE SECTION START
-=========================================== -->
+                    Languages Known: English, Kannada, Telugu, Hindi, Tamil
+                </p>
 
-<section class="experience">
+                <p>
 
-    <h2 class="section-title">
+                    I am available for Entry-Level Red Team Jobs, Cyber Analyst roles, and Cybersecurity Internships.
 
-        Internship / Experience
+                </p>
 
-    </h2>
+            </div>
 
-    <div class="experience-card">
 
-        <h3>
 
-            Full Stack Development Intern
+            <div class="contact-form">
 
-        </h3>
+                <form>
 
-        <h4>
+                    <input type="text" placeholder="Enter Your Name" required>
 
-            ABC Technologies
+                    <input type="email" placeholder="Enter Your Email" required>
 
-        </h4>
+                    <input type="tel" placeholder="Enter Your Mobile Number" required>
 
-        <p>
+                    <input type="text" placeholder="Subject">
 
-            Duration : Jan 2024 - Mar 2024
-
-        </p>
-
-        <ul>
-
-            <li>
-
-                Developed responsive web pages.
-
-            </li>
-
-            <li>
-
-                Worked with HTML, CSS and JavaScript.
-
-            </li>
-
-            <li>
-
-                Designed landing pages.
-
-            </li>
-
-            <li>
-
-                Participated in team projects.
-
-            </li>
-
-        </ul>
-
-    </div>
-
-</section>
-
-<!-- ===========================================
-                EXPERIENCE SECTION END
-=========================================== -->
-
-
-
-
-
-<!-- ===========================================
-            CERTIFICATIONS SECTION START
-=========================================== -->
-
-<section class="certifications">
-
-    <h2 class="section-title">
-
-        Certifications
-
-    </h2>
-
-    <div class="certificate-container">
-
-        <div class="certificate-card">
-
-            <h3>
-
-                HTML & CSS
-
-            </h3>
-
-            <p>
-
-                Successfully completed HTML & CSS
-                Certification.
-
-            </p>
-
-        </div>
-
-        <div class="certificate-card">
-
-            <h3>
-
-                Python Programming
-
-            </h3>
-
-            <p>
-
-                Completed Python Programming Course.
-
-            </p>
-
-        </div>
-
-        <div class="certificate-card">
-
-            <h3>
-
-                AWS Cloud
-
-            </h3>
-
-            <p>
-
-                AWS Cloud Practitioner Training.
-
-            </p>
-
-        </div>
-
-        <div class="certificate-card">
-
-            <h3>
-
-                SQL
-
-            </h3>
-
-            <p>
-
-                Database Management using SQL.
-
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ===========================================
-            CERTIFICATIONS SECTION END
-=========================================== -->
-<!-- ===========================================
-                CONTACT SECTION START
-=========================================== -->
-
-<section class="contact" id="contact">
-
-    <h2 class="section-title">
-
-        Contact Me
-
-    </h2>
-
-    <div class="contact-container">
-
-        <!-- Contact Information -->
-
-        <div class="contact-info">
-
-            <h3>Get In Touch</h3>
-
-            <p>
-
-                📧 Email :
-                vishalgwda@gmail.com
-
-            </p>
-
-            <p>
-
-                📱 Phone :
-                +91 9876543210
-
-            </p>
-
-            <p>
-
-                📍 Location :
-                Bangalore, India
-
-            </p>
-
-            <p>
-
-                I am available for Full-Time Jobs,
-                Freelance Projects and Internship Opportunities.
-
-            </p>
-
-        </div>
-
-
-
-        <!-- Contact Form -->
-
-        <div class="contact-form">
-
-            <form>
-
-                <input
-                    type="text"
-                    placeholder="Enter Your Name"
-                    required>
-
-                <input
-                    type="email"
-                    placeholder="Enter Your Email"
-                    required>
-
-                <input
-                    type="tel"
-                    placeholder="Enter Your Mobile Number"
-                    required>
-
-                <input
-                    type="text"
-                    placeholder="Subject">
-
-                <textarea
-                    rows="6"
-                    placeholder="Write Your Message Here">
+                    <textarea rows="6" placeholder="Write Your Message Here">
 
                 </textarea>
 
-                <button>
+                    <button>
 
                     Send Message
 
                 </button>
 
-            </form>
+                </form>
+
+            </div>
 
         </div>
 
-    </div>
+    </section>
 
-</section>
+    <section class="map">
 
-<!-- ===========================================
-                CONTACT SECTION END
-=========================================== -->
+        <h2 class="section-title">
 
+            My Location
 
+        </h2>
 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4434815769782!2d77.71379259999999!3d13.0074066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae112dc5b29ee1%3A0xb481c69eb8e710c8!2sSea%20College%20of%20Science%2C%20Commerce%20and%20Arts!5e0!3m2!1sen!2sin!4v1783386291358!5m2!1sen!2sin"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
+    </section>
 
-<!-- ===========================================
-                GOOGLE MAP START
-=========================================== -->
+    <section class="social">
 
-<section class="map">
+        <h2 class="section-title">
 
-    <h2 class="section-title">
+            Connect With Me
 
-        My Location
+        </h2>
 
-    </h2>
+        <div class="social-links">
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4434815769782!2d77.71379259999999!3d13.0074066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae112dc5b29ee1%3A0xb481c69eb8e710c8!2sSea%20College%20of%20Science%2C%20Commerce%20and%20Arts!5e0!3m2!1sen!2sin!4v1783386291358!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <a href="https://linkedin.com/in/nitin-varchasvee-cs-6b5286312?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">LinkedIn</a>
 
-</section>
+            <a href="#">GitHub</a>
 
-<!-- ===========================================
-                GOOGLE MAP END
-=========================================== -->
+            <a href="#">IEEE Profile</a>
 
+        </div>
 
+    </section>
 
+    <footer>
 
+        <h2>
 
-<!-- ===========================================
-                SOCIAL MEDIA START
-=========================================== -->
+            Nitin Varchasvee C S
 
-<section class="social">
+        </h2>
 
-<h2 class="section-title">
+        <p>
 
-Connect With Me
+            NSS Volunteer | Student Council | IEEE Member
 
-</h2>
+        </p>
 
-<div class="social-links">
+        <p>
 
-<a href="https://www.linkedin.com/in/valluru-samara-simha-reddy/">LinkedIn</a>
+            © 2026 All Rights Reserved.
 
-<a href="#">GitHub</a>
+        </p>
 
-<a href="#">Instagram</a>
+    </footer>
 
-<a href="#">Twitter</a>
-
-</div>
-
-</section>
-
-<!-- ===========================================
-                SOCIAL MEDIA END
-=========================================== -->
-
-
-
-
-
-<!-- ===========================================
-                FOOTER START
-=========================================== -->
-
-<footer>
-
-<h2>
-
-My Portfolio
-
-</h2>
-
-<p>
-
-Designed using HTML & CSS
-
-</p>
-
-<p>
-
-© 2026 All Rights Reserved.
-
-</p>
-
-</footer>
-
-<!-- ===========================================
-                FOOTER END
-=========================================== -->
 </body>
 
 </html>
